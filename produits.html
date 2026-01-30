@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produits - QUICK SOFT INFORMATIQUE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Menu de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">QUICK SOFT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link active" href="produits.html">Produits</a></li>
+          <li class="nav-item"><a class="nav-link" href="verif.html">Vérification</a></li>
+          <li class="nav-item"><a class="nav-link" href="apropos.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Logo -->
+  <div class="text-center mt-4">
+    <img id="logo" alt="Logo QUICK SOFT INFORMATIQUE" style="max-width:120px; border-radius:50%;">
+  </div>
+
+  <!-- Contenu principal -->
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Nos logiciels</h1>
+
+    <!-- Module RH -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3 class="card-title">Module RH</h3>
+        <p>Gestion du personnel, attestations, suivi des employés, vérification en ligne.</p>
+        <a href="telechargements/module-rh.zip" class="btn btn-success btn-sm" download>Télécharger le module RH</a>
+      </div>
+    </div>
+
+    <!-- Module Commercial avec description et captures -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3 class="card-title">SJ Gestion Commerciale</h3>
+        <p>
+          SJ Gestion Commerciale est une solution complète pour gérer les ventes, les stocks, les clients, les fournisseurs et les statistiques.
+          Elle permet la facturation rapide, le suivi des articles, l’analyse des performances et l’export des données. Adaptée aux PME et commerces locaux,
+          elle offre une interface intuitive et des modules personnalisables.
+        </p>
+        <ul>
+          <li>📦 Suivi des stocks, alertes de seuil, familles d’articles</li>
+          <li>🧾 Facturation client/fournisseur, devis, bons de commande</li>
+          <li>📊 Statistiques dynamiques, filtres et tableaux de bord</li>
+          <li>👥 Gestion des clients, fournisseurs et utilisateurs</li>
+          <li>📤 Export PDF/Excel, impression de rapports</li>
+        </ul>
+        <a href="telechargements/module-commercial.zip" class="btn btn-success btn-sm" download>Télécharger le module Commercial</a>
+        
+        <!-- Nouveau bouton pour le setup via Dropbox -->
+        <a href="https://www.dropbox.com/scl/fi/m8f2b919tk4608ogjui3f/setup-SJ-Commercial.zip?rlkey=7hdiq7ofk2oqq6f2063zptf45&st=wyrm0144&dl=1" 
+           class="btn btn-warning btn-sm mt-2">
+          Télécharger le setup SJ Commercial (ZIP via Dropbox)
+        </a>
+
+        <!-- Galerie de captures -->
+        <div class="mt-4">
+          <h5>Captures d’écran :</h5>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <img src="captures/commercial1.png" alt="Modules SoftJaguar" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="captures/commercial2.png" alt="Interface Hotel-Resto" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="captures/commercial3.png" alt="Inventaire des articles" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="captures/commercial4.png" alt="Interface de facturation POS" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-4 mb-3">
+              <img src="captures/commercial5.png" alt="Facture client détaillée" class="img-fluid rounded shadow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Module Statistiques -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h3 class="card-title">Module Statistiques</h3>
+        <p>Analyses dynamiques, filtres, graphiques et tableaux de bord pour une vision claire de vos performances.</p>
+        <a href="telechargements/module-statistiques.zip" class="btn btn-success btn-sm" download>Télécharger le module Statistiques</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script logo multi-format -->
+  <script>
+    const logoElement = document.getElementById("logo");
+    const formats = ["images/logo.jpeg", "images/logo.jpg", "images/logo.png"];
+    let found = false;
+    for (let path of formats) {
+      const img = new Image();
+      img.src = path;
+      img.onload = function() {
+        if (!found) {
+          logoElement.src = path;
+          found = true;
+        }
+      };
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
