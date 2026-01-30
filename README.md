@@ -1,7 +1,7 @@
 # 📦 QUICK SOFT INFORMATIQUE
 
 Bienvenue sur le dépôt officiel de QUICK SOFT INFORMATIQUE.  
-Nous développons des solutions logicielles professionnelles pour la gestion commerciale, les ressources humaines et les statistiques.
+Nous développons des solutions logicielles professionnelles pour la gestion commerciale, les ressources humaines, les statistiques, la Gestion Scolaire, Hotel et Bar-resto
 
 ---
 
@@ -46,12 +46,13 @@ Accédez à tous les modules et setup depuis la page dédiée :
 ---
 
 ## 📞 Contact
-- 📧 Email : contact@quicksoft.com  
-- 📞 Téléphone : +243 000 000 000  
+- 📧 E-mail : quicksoftinformatique01@gmail.com  
+- 📞 Téléphone : +243 974287719  
 - 🌐 Site : [quicksoftinfos.com](https://quicksoftinfos.com) *(à venir)*
 
 ---
 
 © QUICK SOFT INFORMATIQUE – Tous droits réservés.
+
 
 
